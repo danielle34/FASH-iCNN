@@ -1,0 +1,12 @@
+torch
+torchvision
+timm
+transformers
+gradio
+mediapipe
+opencv-python
+numpy
+pandas
+Pillow
+scikit-learn
+tqdm
