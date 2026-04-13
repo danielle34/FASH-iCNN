@@ -438,7 +438,7 @@ def main():
     print(f"  silhouette: {sil_src}")
     print(f"  edge:       {edge_src}")
 
-    out_dir = Path(__file__).resolve().parent
+    out_dir = Path(__file__).resolve().parent.parent / "assets"
 
     # Static row PNG (for README)
     row_path = str(out_dir / "abstraction_ladder.png")
